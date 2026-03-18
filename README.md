@@ -18,9 +18,8 @@ A modern Android application that interacts with the GitHub API to display users
     - リポジトリ数のバッジ表示。
     - 右端に所属企業名を配置。
 - **スムーズな UX**:
-    - **カスタムロードアニメーション**: データ取得中に「GitHub の宇宙を走る車」の Canvas アニメーションを表示。
+    - **カスタムロードアニメーション**: データ取得中に走る車の Canvas アニメーションを表示。
     - **エラーハンドリング**: ネットワークエラー時などに再試行 (Retry) 可能なエラー画面を表示。
-    - **Material 3 Design**: Google の最新デザインガイドラインに準拠したクリーンでモダンな UI。
 
 ## 技術スタック (Technical Stack)
 
@@ -33,11 +32,11 @@ A modern Android application that interacts with the GitHub API to display users
 
 ## セットアップ (Setup)
 
-1. このリポジトリをクローンします。
-2. **Android Studio (Ladybug 以降推奨)** でプロジェクトを開きます。
-3. Gradle Sync を行い、エミュレータまたは実機で `app` モジュールを実行します。
+1. このリポジトリをクローン
+2. **Android Studio (Ladybug 以降推奨)** でプロジェクトを開く
+3. Gradle Sync を行い、エミュレータまたは実機で `app` モジュールを実行
 
-*注意: このアプリは GitHub のパブリック API を使用しています。短時間に多数のリクエストを行うと、API のレート制限がかかる場合があります。*
+*注意: このアプリは GitHub のパブリック API を使用。短時間に多数のリクエストを行うと、API のレート制限がかかる場合あり*
 
 ## 今後の改善予定 (Future Improvements)
 
